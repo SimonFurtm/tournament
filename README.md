@@ -10,6 +10,6 @@ A list of participants should manage the participants in the knight tournament. 
 
 General requirements for the program:
 
--The data input (i.e. the data input form at check-in) as well as the output of a list of participants (list of all participants, all with weapon types) should be done graphically.
+- The data input (i.e. the data input form at check-in) as well as the output of a list of participants (list of all participants, all with weapon types) should be done graphically.
 
--Implement the corresponding objects and method calls in order to be able to test the behavior in a meaningful way using unit tests.
+- Implement the corresponding objects and method calls in order to be able to test the behavior in a meaningful way using unit tests.
