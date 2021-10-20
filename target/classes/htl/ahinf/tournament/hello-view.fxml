@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="htl.ahinf.tournament.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="79.0" layoutY="16.0" prefHeight="17.0" prefWidth="40.0" text="Knight" />
+      <TextField layoutX="70.0" layoutY="46.0" />
+      <Label layoutX="20.0" layoutY="50.0" text="Name:" />
+      <CheckBox layoutX="20.0" layoutY="233.0" mnemonicParsing="false" text="Add Sarce" />
+      <Button layoutX="15.0" layoutY="344.0" mnemonicParsing="false" text="Add Knight" />
+      <Label layoutX="19.0" layoutY="82.0" text="Phone:" />
+      <TextField layoutX="70.0" layoutY="78.0" />
+      <Label layoutX="9.0" layoutY="113.0" text="Nickname:" />
+      <TextField layoutX="70.0" layoutY="109.0" />
+      <Pane layoutY="250.0" prefHeight="80.0" prefWidth="231.0">
+         <children>
+            <Label layoutX="20.0" layoutY="15.0" text="Name:" />
+            <TextField layoutX="70.0" layoutY="11.0" />
+            <Label layoutX="20.0" layoutY="50.0" text="Phone:" />
+            <TextField layoutX="70.0" layoutY="46.0" />
+         </children>
+      </Pane>
+      <Pane layoutY="158.0" prefHeight="80.0" prefWidth="231.0">
+         <children>
+            <Label layoutX="20.0" layoutY="15.0" text="Name:" />
+            <TextField layoutX="70.0" layoutY="11.0" />
+            <Label layoutX="20.0" layoutY="50.0" text="Phone:" />
+            <TextField layoutX="70.0" layoutY="46.0" />
+         </children>
+      </Pane>
+      <CheckBox layoutX="20.0" layoutY="146.0" mnemonicParsing="false" text="Add Weapon" />
+      <Pane layoutX="229.0" prefHeight="400.0" prefWidth="270.0">
+         <children>
+            <Label layoutX="40.0" layoutY="85.0" text="Participants:" />
+            <Label layoutX="125.0" layoutY="85.0" text="0" />
+         </children>
+      </Pane>
+      <Button layoutX="99.0" layoutY="344.0" mnemonicParsing="false" text="Update Participants" />
+   </children>
+</Pane>

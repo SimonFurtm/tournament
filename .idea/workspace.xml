@@ -28,18 +28,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RunManager" selected="Application.Manager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="HelloApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.HelloApplication" />
       <module name="tournament" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="htl.ahinf.tournament.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Simon\.jdks\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -49,7 +47,7 @@
       <module name="tournament" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="htl.ahinf.tournament.*" />
+          <option name="PATTERN" value="htl.ahinf.tournament.HelloApplication" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
