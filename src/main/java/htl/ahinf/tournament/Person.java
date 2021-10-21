@@ -2,10 +2,10 @@ package htl.ahinf.tournament;
 
 public abstract class Person {
 
-    private String name;
-    private int phoneNr;
+    private final String name;
+    private final String phoneNr;
 
-    public Person(String name, int phoneNr) {
+    public Person(String name, String phoneNr) {
         this.name = name;
         this.phoneNr = phoneNr;
     }
@@ -16,5 +16,13 @@ public abstract class Person {
                 "name='" + name + '\'' +
                 ", phoneNr=" + phoneNr +
                 '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNr() {
+        return phoneNr;
     }
 }

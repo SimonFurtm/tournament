@@ -2,9 +2,9 @@ package htl.ahinf.tournament;
 
 public abstract class Weapon {
     private String description;
-    private String type;
+    private char type;
 
-    public Weapon(String description, String type) {
+    public Weapon(String description, char type) {
         this.description = description;
         this.type = type;
     }
@@ -13,6 +13,15 @@ public abstract class Weapon {
     public String toString() {
         return "Weapon{" +
                 "description='" + description + '\'' +
+                ", type='" + type + '\'' +
                 '}';
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public char getType() {
+        return type;
     }
 }
