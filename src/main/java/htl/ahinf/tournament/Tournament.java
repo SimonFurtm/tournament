@@ -14,7 +14,7 @@ public class Tournament {
     }
 
     public void tournamantInformation(){
-        System.out.println(tournamentName + ":\n\tWelcome to the tournament of " + host + "!\n\tPlease sign up, if you want to participate.");
+        System.out.println(tournamentName + ":\n\tWelcome to the tournament hosted by " + host + "!\n\tPlease sign up, if you want to participate.");
     }
 
     public void tournamentBreak(){

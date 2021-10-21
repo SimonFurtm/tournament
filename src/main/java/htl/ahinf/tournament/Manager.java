@@ -16,7 +16,6 @@ public class Manager {
 
         fallFestival.addParticipants(one);
         fallFestival.addParticipants(two);
-        fallFestival.addParticipants(one);
 
         fallFestival.listAllParticipants();
         fallFestival.tournamentBreak();
