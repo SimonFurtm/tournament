@@ -17,19 +17,19 @@ public class Manager {
         try {
             fallFestival.addParticipants(one);
 
-        }catch (NameSchonVorhandenExeption e){
+        }catch (KnightAlreadyExists e){
             System.out.println(e + " is already participating.");
         }
         try {
             fallFestival.addParticipants(one);
 
-        }catch (NameSchonVorhandenExeption e){
+        }catch (KnightAlreadyExists e){
             System.out.println(e + " is already participating.");
         }
         try {
             fallFestival.addParticipants(two);
 
-        }catch (NameSchonVorhandenExeption e){
+        }catch (KnightAlreadyExists e){
             System.out.println(e + " is already participating.");
         }
 

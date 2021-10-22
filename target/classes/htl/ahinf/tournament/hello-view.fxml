@@ -3,52 +3,45 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.ahinf.tournament.Controller">
+<Pane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.ahinf.tournament.Controller">
    <children>
       <Label layoutX="124.0" layoutY="14.0" prefHeight="17.0" prefWidth="40.0" text="Knight" />
-      <TextField layoutX="70.0" layoutY="32.0" />
+      <TextField fx:id="knightName" layoutX="70.0" layoutY="32.0" promptText="knights name" />
       <Label layoutX="19.0" layoutY="36.0" text="Name:" />
-      <Button layoutX="37.0" layoutY="368.0" mnemonicParsing="false" text="Add Knight" />
+      <Button layoutX="37.0" layoutY="368.0" mnemonicParsing="false" onAction="#addKnight" style="-fx-background-color: lightgreen;" text="Add Knight" />
       <Label layoutX="18.0" layoutY="66.0" text="Phone:" />
       <Label layoutX="9.0" layoutY="96.0" text="Nickname:" />
-      <CheckBox fx:id="scarceCheckBox" layoutX="20.0" layoutY="243.0" mnemonicParsing="false" onAction="#scarcePane" onDragEntered="#addScarce" onDragExited="#hideScarce" text="Add Scarce" />
-      <TextField layoutX="70.0" layoutY="92.0" />
-      <Pane fx:id="pane" layoutY="263.0" prefHeight="101.0" prefWidth="231.0" style="-fx-background-color: grey;">
+      <CheckBox fx:id="scarceCheckBox" layoutX="20.0" layoutY="243.0" mnemonicParsing="false" onAction="#showScarcePane" text="Add Scarce" />
+      <TextField fx:id="nickName" layoutX="70.0" layoutY="92.0" promptText="the great" />
+      <Pane fx:id="scarcePane" layoutY="263.0" prefHeight="101.0" prefWidth="237.0" style="-fx-background-color: lightblue;">
          <children>
             <Label layoutX="17.0" layoutY="11.0" prefHeight="17.0" prefWidth="40.0" text="Name:" />
-            <TextField fx:id="scarceName" layoutX="70.0" layoutY="7.0" />
+            <TextField fx:id="scarceName" layoutX="70.0" layoutY="7.0" promptText="scarce name" />
             <Label layoutX="18.0" layoutY="42.0" text="Phone:" />
-            <TextField fx:id="scarcePhoneNr" layoutX="70.0" layoutY="38.0" />
+            <TextField fx:id="scarcePhoneNr" layoutX="70.0" layoutY="38.0" promptText="+43 650 1234567" />
             <Label layoutX="7.0" layoutY="74.0" text="Experience:" />
-            <TextField fx:id="scarceExperience" layoutX="70.0" layoutY="70.0" />
+            <TextField fx:id="scarceExperience" layoutX="70.0" layoutY="70.0" promptText="extra experience" />
          </children>
       </Pane>
-      <Pane fx:id="pane" layoutY="146.0" prefHeight="95.0" prefWidth="231.0" style="-fx-background-color: lightblue;">
+      <Pane fx:id="weaponPane" layoutY="146.0" prefHeight="95.0" prefWidth="237.0" style="-fx-background-color: lightblue;">
          <children>
             <Label layoutX="2.0" layoutY="10.0" text="Description:" />
-            <TextField fx:id="weaponDescription" layoutX="70.0" layoutY="6.0" />
+            <TextField fx:id="weaponDescription" layoutX="70.0" layoutY="6.0" promptText="Longsword" />
             <Label layoutX="20.0" layoutY="40.0" text="Type:" />
-            <TextField fx:id="weaponType" layoutX="70.0" layoutY="36.0" />
+            <TextField fx:id="weaponType" layoutX="70.0" layoutY="36.0" promptText="only char" />
             <Label layoutX="10.0" layoutY="69.0" text="Property:" />
-            <TextField fx:id="weaponProperty" layoutX="70.0" layoutY="65.0" />
+            <TextField fx:id="weaponProperty" layoutX="70.0" layoutY="65.0" promptText="something special" />
          </children>
       </Pane>
-      <CheckBox fx:id="weaponCheckBox" layoutX="20.0" layoutY="127.0" mnemonicParsing="false" onAction="#weaponPane" text="Add Weapon" />
-      <Pane layoutX="235.0" prefHeight="400.0" prefWidth="250.0">
+      <CheckBox fx:id="weaponCheckBox" layoutX="20.0" layoutY="127.0" mnemonicParsing="false" onAction="#showWeaponPane" text="Add Weapon" />
+      <Pane layoutX="227.0" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: lightgrey;">
          <children>
             <Label layoutX="93.0" layoutY="14.0" text="Participants:" />
-            <Button layoutX="65.0" layoutY="367.0" mnemonicParsing="false" onAction="#updateParticipants" prefWidth="120.0" text="Update Participants" />
-            <TextField layoutX="10.0" layoutY="32.0" prefHeight="323.0" prefWidth="231.0" />
+            <Button layoutX="65.0" layoutY="367.0" mnemonicParsing="false" onAction="#updateParticipants" prefWidth="120.0" style="-fx-background-color: lightblue;" text="Update Participants" />
+            <TextArea fx:id="textArea" layoutX="9.0" layoutY="32.0" prefHeight="323.0" prefWidth="231.0" />
          </children>
       </Pane>
-      <Button layoutX="133.0" layoutY="368.0" mnemonicParsing="false" text="Discard Form" />
-      <TextField layoutX="70.0" layoutY="62.0" />
-      <Pane layoutX="500.0" prefHeight="400.0" prefWidth="250.0">
-         <children>
-            <Label layoutX="93.0" layoutY="14.0" text="Participants:" />
-            <Button layoutX="65.0" layoutY="367.0" mnemonicParsing="false" onAction="#updateParticipants" prefWidth="120.0" text="Update Participants" />
-            <ListView layoutX="10.0" layoutY="32.0" prefHeight="323.0" prefWidth="231.0" />
-         </children>
-      </Pane>
+      <Button layoutX="133.0" layoutY="368.0" mnemonicParsing="false" onAction="#discardForm" style="-fx-background-color: red;" text="Discard Form" />
+      <TextField fx:id="knightPhoneNr" layoutX="70.0" layoutY="62.0" promptText="+43 650 1234567" />
    </children>
 </Pane>

@@ -5,37 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f86f672-0759-4133-bf2a-14bae362526d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/KnightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/LanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/ScarceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/SwordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/TournamentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/WeaponTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/NameSchonVorhandenExeption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/TournamentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/TournamentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Lance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Lance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/NameSchonVorhandenExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/KnightAlreadyExists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/TournamentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/TournamentApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Lance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Lance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/NameSchonVorhandenExeption.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Tournament.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Tournament.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/TournamentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/TournamentApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tournament-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/htl/ahinf/tournament/TournamentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/htl/ahinf/tournament/TournamentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tournament.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tournament.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +41,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zjDLTEQ8kaYe0F0bnUiuoL1oec" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -92,7 +82,7 @@
       <command value="mvn exec:java" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Manager">
+  <component name="RunManager" selected="Application.TournamentApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.TournamentApplication" />
       <module name="tournament" />
@@ -118,6 +108,14 @@
       <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.TournamentApplication" />
       <module name="tournament" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Simon\.jdks\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in tournament" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tournament" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TournamentTest.addParticipants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tournament" />
       <extension name="coverage">
         <pattern>
@@ -162,23 +160,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="htl.ahinf.tournament" />
-      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.LanceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LanceTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tournament" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="htl.ahinf.tournament.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="htl.ahinf.tournament" />
-      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.LanceTest" />
-      <option name="METHOD_NAME" value="testToString" />
+      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.TournamentTest" />
+      <option name="METHOD_NAME" value="addParticipants" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,19 +196,19 @@
       <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Application.TournamentApplication" />
       <item itemvalue="Application.Manager" />
-      <item itemvalue="Maven.tournament [exec:java]" />
-      <item itemvalue="JUnit.LanceTest.testToString" />
-      <item itemvalue="JUnit.LanceTest" />
       <item itemvalue="JUnit.KnightTest" />
       <item itemvalue="JUnit.KnightTest.addScarce" />
+      <item itemvalue="Maven.tournament [exec:java]" />
+      <item itemvalue="JUnit.TournamentTest.addParticipants" />
+      <item itemvalue="JUnit.All in tournament" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Manager" />
+        <item itemvalue="JUnit.All in tournament" />
+        <item itemvalue="JUnit.TournamentTest.addParticipants" />
         <item itemvalue="JUnit.KnightTest" />
         <item itemvalue="JUnit.KnightTest.addScarce" />
-        <item itemvalue="JUnit.LanceTest" />
-        <item itemvalue="JUnit.LanceTest.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -251,10 +234,14 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tournament$TournamentApplication.ic" NAME="TournamentApplication Coverage Results" MODIFIED="1634890804720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tournament$LanceTest.ic" NAME="LanceTest Coverage Results" MODIFIED="1634904055194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>htl.ahinf.tournament.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/tournament$TournamentApplication.ic" NAME="TournamentApplication Coverage Results" MODIFIED="1634890804720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tournament$All_in_tournament.ic" NAME="All in tournament Coverage Results" MODIFIED="1634927290994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

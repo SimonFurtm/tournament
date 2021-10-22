@@ -23,10 +23,10 @@ public class Tournament {
 
     }
 
-    public void addParticipants(Knight knight) throws NameSchonVorhandenExeption{
+    public void addParticipants(Knight knight) throws KnightAlreadyExists {
             for (int i = 0; i < getParticipants().size(); i++){
                 if (participants.get(i) == knight){
-                    throw new NameSchonVorhandenExeption(participants.get(i).getName());
+                    throw new KnightAlreadyExists(participants.get(i).getName());
                 }
             }
             participants.add(knight);
