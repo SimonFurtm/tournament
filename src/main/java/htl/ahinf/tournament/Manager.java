@@ -14,13 +14,33 @@ public class Manager {
         fallFestival.tournamantInformation();
         fallFestival.tournamentBreak();
 
-        fallFestival.addParticipants(one);
-        fallFestival.addParticipants(two);
+        try {
+            fallFestival.addParticipants(one);
+
+        }catch (NameSchonVorhandenExeption e){
+            System.out.println(e + " is already participating.");
+        }
+        try {
+            fallFestival.addParticipants(one);
+
+        }catch (NameSchonVorhandenExeption e){
+            System.out.println(e + " is already participating.");
+        }
+        try {
+            fallFestival.addParticipants(two);
+
+        }catch (NameSchonVorhandenExeption e){
+            System.out.println(e + " is already participating.");
+        }
 
         fallFestival.listAllParticipants();
         fallFestival.tournamentBreak();
         fallFestival.participantWithWeaponType('l');
 
+        fallFestival.tournamentBreak();
+
+        fallFestival.removeParticipant(one);
+        fallFestival.listAllParticipants();
 
     }
 }

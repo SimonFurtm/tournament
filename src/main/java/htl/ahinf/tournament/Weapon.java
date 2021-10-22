@@ -3,10 +3,12 @@ package htl.ahinf.tournament;
 public abstract class Weapon {
     private String description;
     private char type;
+    private String property;
 
-    public Weapon(String description, char type) {
+    public Weapon(String description, char type, String property) {
         this.description = description;
         this.type = type;
+        this.property = property;
     }
 
     @Override
@@ -14,6 +16,7 @@ public abstract class Weapon {
         return "Weapon{" +
                 "description='" + description + '\'' +
                 ", type='" + type + '\'' +
+                ", property='" + property + '\'' +
                 '}';
     }
 
@@ -23,5 +26,9 @@ public abstract class Weapon {
 
     public char getType() {
         return type;
+    }
+
+    public String getProperty() {
+        return property;
     }
 }

@@ -1,11 +1,8 @@
 package htl.ahinf.tournament;
 
 public class Lance extends Weapon{
-    private String piercing;
-
-    public Lance(String description, char type, String piercing) {
-        super(description, type);
-        this.piercing = piercing;
+    public Lance(String description, char type, String property) {
+        super(description, type, property);
     }
 
     @Override
@@ -13,11 +10,7 @@ public class Lance extends Weapon{
         return "Lance{" +
                 "description='" + super.getDescription() + '\'' +
                 ", type='" + super.getType() + '\'' +
-                "piercing='" + piercing + '\'' +
+                ", property='" + super.getProperty() + '\'' +
                 '}';
-    }
-
-    public String getPiercing() {
-        return piercing;
     }
 }

@@ -5,16 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f86f672-0759-4133-bf2a-14bae362526d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/LanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/ScarceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/SwordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/TournamentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tests/htl/ahinf/tournament/WeaponTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/NameSchonVorhandenExeption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Lance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Lance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Sword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Lance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Lance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Sword.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Tournament.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Tournament.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Weapon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tournament-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tournament.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tournament.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,11 +63,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Zahlenraten" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Fußballmanager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simif\Documents\GitHub\tournament\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="htl.ahinf.tournament" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -56,7 +92,7 @@
       <command value="mvn exec:java" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TournamentApplication">
+  <component name="RunManager" selected="Application.Manager">
     <configuration name="HelloApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.TournamentApplication" />
       <module name="tournament" />
@@ -86,10 +122,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="htl.ahinf.tournament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="htl.ahinf.tournament" />
+      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.KnightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTest.addScarce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="htl.ahinf.tournament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="htl.ahinf.tournament" />
+      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.KnightTest" />
+      <option name="METHOD_NAME" value="addScarce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="htl.ahinf.tournament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="htl.ahinf.tournament" />
+      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.LanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LanceTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="htl.ahinf.tournament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="htl.ahinf.tournament" />
+      <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.LanceTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tournament [exec:java]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.TournamentApplication" />
+      <item itemvalue="Application.Manager" />
+      <item itemvalue="Maven.tournament [exec:java]" />
+      <item itemvalue="JUnit.LanceTest.testToString" />
+      <item itemvalue="JUnit.LanceTest" />
+      <item itemvalue="JUnit.KnightTest" />
+      <item itemvalue="JUnit.KnightTest.addScarce" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Manager" />
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="JUnit.KnightTest" />
+        <item itemvalue="JUnit.KnightTest.addScarce" />
+        <item itemvalue="JUnit.LanceTest" />
+        <item itemvalue="JUnit.LanceTest.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -103,5 +239,22 @@
       <updated>1634652581339</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tournament$TournamentApplication.ic" NAME="TournamentApplication Coverage Results" MODIFIED="1634890804720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tournament$LanceTest.ic" NAME="LanceTest Coverage Results" MODIFIED="1634904055194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>htl.ahinf.tournament.*</FILTER>
+    </SUITE>
   </component>
 </project>
