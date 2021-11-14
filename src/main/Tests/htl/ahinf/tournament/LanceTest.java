@@ -12,7 +12,10 @@ class LanceTest {
     @Test
     void testToString() {
         knight.addWeapon("TestLance",'l',"I");
-        assertEquals("Lance{description='TestLance', type='l', property='I'}",knight.getKnightsWeapon().toString());
+        assertEquals("Lance:\n" +
+                "\t\tdescription= TestLance\n" +
+                "\t\ttype= l\n" +
+                "\t\tproperty= I;",knight.getKnightsWeapon().toString());
     }
 
     @Test

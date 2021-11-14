@@ -3,11 +3,14 @@ package htl.ahinf.tournament;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 
 public class Controller {
+    @FXML
+    public Label errorMassage;
     @FXML
     private TextField knightName;
     @FXML
@@ -40,45 +43,96 @@ public class Controller {
     private CheckBox scarceCheckBox;
 
     private boolean addScarce;
+    private boolean addWeapon;
+    private char weaponTypeChar;
+    private int scarceExperienceInt;
     private Tournament tournament = new Tournament("FX Tournier","java");
 
     @FXML
-    public void initialize() {
+    public void initialize() {  //wird ausgeführt beim starten der applikation
         weaponPane.setVisible(false);
         scarcePane.setVisible(false);
     }
 
-    public void showScarcePane(ActionEvent actionEvent) {
+    //fügt knappen hinzu
+    public void addScarce(ActionEvent actionEvent) {
         scarcePane.setVisible(scarceCheckBox.isSelected());
+        if(scarceCheckBox.isSelected()){
+            addScarce=true;
+        }else {
+            addScarce=false;
+        }
     }
 
-
-    public void showWeaponPane(ActionEvent actionEvent) {
+    //fügt waffe hinzu
+    public void addWeapon(ActionEvent actionEvent) {
         weaponPane.setVisible(weaponCheckBox.isSelected());
-
+        if(weaponCheckBox.isSelected()){
+            addWeapon=true;
+        }else {
+            addWeapon=false;
+        }
     }
 
+    //fügt ritter hinzu
     public void addKnight(ActionEvent actionEvent){
-        if (knightName != null && knightPhoneNr != null && nickName != null){
+        if (knightName.getText() != "" && knightPhoneNr.getText() != "" && nickName.getText() != ""){   //wenn alles ausgefüllt ist beim formular (für den ritter)
+            //erstellt ritter
             Knight knight = new Knight(knightName.getText(),knightPhoneNr.getText(),nickName.getText());
+            //ritter in turnier schon vorhanden exeption
             try {
+                //fügt ritter zum turnier hinzu
                 tournament.addParticipants(knight);
+
             }catch (KnightAlreadyExists e){
                 System.out.println(e + " is already participating.");
+                errorMassage.setText("Knight already exists");
+            }
+
+            //wenn waffe hinzugefügt werden soll
+            if (addWeapon){
+                //wandelt string in char um
+                weaponTypeChar = weaponType.getText().charAt(0);
+                //fügt waffe zum ritter hinzu
+                knight.addWeapon(weaponDescription.getText(),weaponTypeChar,weaponProperty.getText());
+                    //falls waffentyp nicht vorhanden ist
+                    if(!knight.isValidWeaponType()) {
+                        errorMassage.setText("Wrong weapon type");
+                        tournament.removeParticipant(knight);
+                    }
+
+            }
+            //wenn knappe hinzugefügt werden soll
+            if (addScarce){
+                try {
+                    //string zu integer
+                    scarceExperienceInt = Integer.parseInt(scarceExperience.getText());
+                    //fügt knappen zum ritter hinzu
+                    knight.addScarce(scarceName.getText(),scarcePhoneNr.getText(), scarceExperienceInt);
+                }catch (NumberFormatException e){   //wenn string kein nummer ist
+                    System.out.println("Scarce experience must be a Integer.");
+                    errorMassage.setText("XP isn`t Integer");
+                    tournament.removeParticipant(knight);
+                }
             }
         }else {
             System.out.println("Please fill out the whole form.");
+            errorMassage.setText("Form not valid");
         }
-        clearForm();
-
+        textArea.setText(tournament.listAllParticipants());
     }
 
+    //verwirft formular
     public void discardForm(ActionEvent actionEvent){
         clearForm();
     }
+
+    //setzt alles auf den "soll-stand" zurück
     public void clearForm(){
         weaponPane.setVisible(false);
         scarcePane.setVisible(false);
+        weaponCheckBox.setSelected(false);
+        scarceCheckBox.setSelected(false);
         knightName.clear();
         knightPhoneNr.clear();
         nickName.clear();
@@ -88,9 +142,13 @@ public class Controller {
         weaponDescription.clear();
         weaponProperty.clear();
         weaponType.clear();
+        addScarce = false;
+        addWeapon = false;
     }
-
+    //gibt die liste aller teilnehmer im textfeld aus
     public void updateParticipants(ActionEvent actionEvent){
-        textArea.setText(tournament.getParticipants().toString());
+        textArea.setText(tournament.listAllParticipants());
+        System.out.println("Updating...");
+        errorMassage.setText("");
     }
 }

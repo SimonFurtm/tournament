@@ -16,13 +16,19 @@ class KnightTest {
     @Test
     void addScarce() {
         knight.addScarce("Testscarce","+132",5);
-        assertEquals("Scarce{name='Testscarce'phoneNr='+132'training=15}",knight.getKnightsScarce().toString());
+        assertEquals("Scarce:\n" +
+                "\t\tname = Testscarce\n" +
+                "\t\tphoneNr = +132\n" +
+                "\t\ttraining = 15;",knight.getKnightsScarce().toString());
     }
 
     @Test
     void addWeapon() {
         knight.addWeapon("Testwaffe",'s',"V");
-        assertEquals("Sword{description='Testwaffe', type='s', property='V'}",knight.getKnightsWeapon().toString());
+        assertEquals("Sword:\n" +
+                "\t\tdescription= Testwaffe\n" +
+                "\t\ttype= s\n" +
+                "\t\tproperty= V;",knight.getKnightsWeapon().toString());
 
     }
 
