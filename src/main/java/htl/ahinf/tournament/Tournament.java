@@ -45,7 +45,7 @@ public class Tournament {
         System.out.println(knight.getName() + " no longer participates in the " + tournamentName + " tournament.");
     }
 
-    //Observer pattern
+    //zeigt alle teilnehmer
     public String listAllParticipants(){
         list = "\n";
         for (int i = 0; i < getParticipants().size(); i++){

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.ahinf.tournament.Controller">
+<Pane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.ahinf.tournament.Controller">
    <children>
+      <ImageView fx:id="background" fitHeight="456.0" fitWidth="712.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@empire-background.jpg" />
+         </image>
+      </ImageView>
       <Label layoutX="124.0" layoutY="14.0" prefHeight="17.0" prefWidth="40.0" text="Knight" />
       <TextField fx:id="knightName" layoutX="70.0" layoutY="32.0" promptText="knights name" />
-      <Label layoutX="19.0" layoutY="36.0" text="Name:" />
-      <Button layoutX="37.0" layoutY="368.0" mnemonicParsing="false" onAction="#addKnight" style="-fx-background-color: lightgreen;" text="Add Knight" />
-      <Label layoutX="18.0" layoutY="66.0" text="Phone:" />
-      <Label layoutX="9.0" layoutY="96.0" text="Nickname:" />
-      <CheckBox fx:id="scarceCheckBox" layoutX="20.0" layoutY="243.0" mnemonicParsing="false" onAction="#addScarce" text="Add Scarce" />
+      <Label layoutX="19.0" layoutY="36.0" text="Name:" textFill="WHITE" />
+      <Button layoutX="14.0" layoutY="127.0" mnemonicParsing="false" onAction="#addKnight" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: lightgreen;" text="Add Knight" />
+      <Label layoutX="18.0" layoutY="66.0" text="Phone:" textFill="WHITE" />
+      <Label layoutX="9.0" layoutY="96.0" text="Nickname:" textFill="WHITE" />
+      <CheckBox fx:id="scarceCheckBox" layoutX="20.0" layoutY="278.0" mnemonicParsing="false" onAction="#addScarce" text="Add Scarce" textFill="WHITE" />
       <TextField fx:id="nickName" layoutX="70.0" layoutY="92.0" promptText="the great" />
-      <Pane fx:id="scarcePane" layoutY="263.0" prefHeight="101.0" prefWidth="237.0" style="-fx-background-color: lightblue;">
+      <Pane fx:id="scarcePane" layoutY="299.0" prefHeight="101.0" prefWidth="237.0" style="-fx-background-color: red;">
          <children>
             <Label layoutX="17.0" layoutY="11.0" prefHeight="17.0" prefWidth="40.0" text="Name:" />
             <TextField fx:id="scarceName" layoutX="70.0" layoutY="7.0" promptText="scarce name" />
@@ -23,7 +29,7 @@
             <TextField fx:id="scarceExperience" layoutX="70.0" layoutY="70.0" promptText="10" />
          </children>
       </Pane>
-      <Pane fx:id="weaponPane" layoutY="146.0" prefHeight="95.0" prefWidth="237.0" style="-fx-background-color: lightblue;">
+      <Pane fx:id="weaponPane" layoutY="180.0" prefHeight="95.0" prefWidth="237.0" style="-fx-background-color: red;">
          <children>
             <Label layoutX="2.0" layoutY="10.0" text="Description:" />
             <TextField fx:id="weaponDescription" layoutX="70.0" layoutY="6.0" promptText="Longsword" />
@@ -33,16 +39,22 @@
             <TextField fx:id="weaponProperty" layoutX="70.0" layoutY="65.0" promptText="something special" />
          </children>
       </Pane>
-      <CheckBox fx:id="weaponCheckBox" layoutX="20.0" layoutY="127.0" mnemonicParsing="false" onAction="#addWeapon" text="Add Weapon" />
-      <Pane layoutX="227.0" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: lightgrey;">
+      <CheckBox fx:id="weaponCheckBox" layoutX="20.0" layoutY="160.0" mnemonicParsing="false" onAction="#addWeapon" text="Add Weapon" textFill="WHITE" />
+      <Pane layoutX="433.0" prefHeight="400.0" prefWidth="280.0">
          <children>
-            <Label layoutX="93.0" layoutY="14.0" text="Participants:" />
-            <Button layoutX="14.0" layoutY="367.0" mnemonicParsing="false" onAction="#updateParticipants" prefWidth="120.0" style="-fx-background-color: lightblue;" text="Update Participants" />
-            <TextArea fx:id="textArea" layoutX="9.0" layoutY="32.0" prefHeight="323.0" prefWidth="231.0" />
-            <Label fx:id="errorMassage" layoutX="157.0" layoutY="371.0" />
+            <Label layoutX="93.0" layoutY="12.0" text="Participants:" textFill="WHITE" />
+            <Button fx:id="btn2" layoutX="153.0" layoutY="362.0" mnemonicParsing="false" onAction="#updateParticipants" prefWidth="120.0" style="-fx-background-color: red;" text="Update Participants" />
+            <TextArea fx:id="textArea" layoutX="10.0" layoutY="31.0" prefHeight="323.0" prefWidth="263.0" />
+            <Button fx:id="btn1" layoutX="10.0" layoutY="362.0" mnemonicParsing="false" onAction="#switchSide" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: red;" text="Switch Side" textAlignment="CENTER" />
          </children>
       </Pane>
-      <Button layoutX="133.0" layoutY="368.0" mnemonicParsing="false" onAction="#discardForm" style="-fx-background-color: red;" text="Discard Form" />
+      <Button layoutX="128.0" layoutY="127.0" mnemonicParsing="false" onAction="#discardForm" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: red;" text="Discard Form" />
       <TextField fx:id="knightPhoneNr" layoutX="70.0" layoutY="62.0" promptText="+43 650 1234567" />
+      <ImageView fx:id="logo" fitHeight="150.0" fitWidth="200.0" layoutX="281.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@empire-logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="errorMassage" alignment="CENTER" contentDisplay="CENTER" layoutX="249.0" layoutY="369.0" prefHeight="17.0" prefWidth="184.0" text="Welcome User" textAlignment="CENTER" textFill="WHITE" />
    </children>
 </Pane>

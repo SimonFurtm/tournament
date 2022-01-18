@@ -12,8 +12,9 @@ public class TournamentApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(TournamentApplication.class.getResource("hello-view.fxml"));
         stage.getIcons().add(new Image("htl/ahinf/tournament/logo.jpg"));
-        Scene scene = new Scene(fxmlLoader.load(), 480, 400);
-        stage.setTitle("Tournament");
+        stage.setResizable(false);
+        Scene scene = new Scene(fxmlLoader.load(), 712, 400);
+        stage.setTitle("Knight Registration");
         stage.setScene(scene);
         stage.show();
     }

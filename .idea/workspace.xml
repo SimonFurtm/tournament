@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f86f672-0759-4133-bf2a-14bae362526d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/TournamentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/TournamentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/jedi-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/jedi-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/TournamentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/TournamentApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tournament.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tournament.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +52,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,7 +80,7 @@
       <command value="mvn exec:java" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
+  <component name="RunManager" selected="Application.TournamentApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="htl.ahinf.tournament.TournamentApplication" />
       <module name="tournament" />
@@ -225,10 +235,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tournament$TournamentApplication.ic" NAME="TournamentApplication Coverage Results" MODIFIED="1634890804720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tournament$All_in_tournament.ic" NAME="All in tournament Coverage Results" MODIFIED="1634927290994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tournament$LanceTest.ic" NAME="LanceTest Coverage Results" MODIFIED="1634904055194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>htl.ahinf.tournament.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/tournament$TournamentApplication.ic" NAME="TournamentApplication Coverage Results" MODIFIED="1634890804720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tournament$All_in_tournament.ic" NAME="All in tournament Coverage Results" MODIFIED="1634927290994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

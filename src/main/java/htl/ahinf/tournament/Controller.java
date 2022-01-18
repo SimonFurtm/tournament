@@ -2,15 +2,21 @@ package htl.ahinf.tournament;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 public class Controller {
     @FXML
     public Label errorMassage;
+    public Button btn1;
+    public Button btn2;
+    public ImageView logo;
+    public ImageView background;
     @FXML
     private TextField knightName;
     @FXML
@@ -32,8 +38,6 @@ public class Controller {
     @FXML
     private TextField nickName;
     @FXML
-    private Pane backgroundPane;
-    @FXML
     private Pane weaponPane;
     @FXML
     private Pane scarcePane;
@@ -44,9 +48,19 @@ public class Controller {
 
     private boolean addScarce;
     private boolean addWeapon;
+    private boolean darkSide = true;
     private char weaponTypeChar;
     private int scarceExperienceInt;
+
     private Tournament tournament = new Tournament("FX Tournier","java");
+
+    //images
+    Image empireLogo = new Image(new FileInputStream("src/main/resources/htl/ahinf/tournament/empire-logo.png"));
+    Image jediLogo = new Image(new FileInputStream("src/main/resources/htl/ahinf/tournament/jedi-logo.png"));
+    Image empireBackground = new Image(new FileInputStream("src/main/resources/htl/ahinf/tournament/empire-background.jpg"));
+    Image jediBackground = new Image(new FileInputStream("src/main/resources/htl/ahinf/tournament/jedi-background.jpg"));
+
+    public Controller() throws FileNotFoundException {}
 
     @FXML
     public void initialize() {  //wird ausgeführt beim starten der applikation
@@ -150,5 +164,26 @@ public class Controller {
         textArea.setText(tournament.listAllParticipants());
         System.out.println("Updating...");
         errorMassage.setText("");
+    }
+
+    //ändert das design
+    public void switchSide(ActionEvent actionEvent) {
+        if (darkSide){
+            btn1.setStyle("-fx-background-color: lightgreen");
+            btn2.setStyle("-fx-background-color: lightgreen");
+            scarcePane.setStyle("-fx-background-color: lightgreen");
+            weaponPane.setStyle("-fx-background-color: lightgreen");
+            logo.setImage(jediLogo);
+            background.setImage(jediBackground);
+            darkSide = false;
+        }else{
+            btn1.setStyle("-fx-background-color: red");
+            btn2.setStyle("-fx-background-color: red");
+            scarcePane.setStyle("-fx-background-color: red");
+            weaponPane.setStyle("-fx-background-color: red");
+            logo.setImage(empireLogo);
+            background.setImage(empireBackground);
+            darkSide = true;
+        }
     }
 }
