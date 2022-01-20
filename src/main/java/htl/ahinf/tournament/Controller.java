@@ -17,6 +17,7 @@ public class Controller {
     public Button btn2;
     public ImageView logo;
     public ImageView background;
+    public Label knightLabel;
     @FXML
     private TextField knightName;
     @FXML
@@ -173,16 +174,18 @@ public class Controller {
             btn2.setStyle("-fx-background-color: lightgreen");
             scarcePane.setStyle("-fx-background-color: lightgreen");
             weaponPane.setStyle("-fx-background-color: lightgreen");
-            logo.setImage(jediLogo);
             background.setImage(jediBackground);
+            logo.setImage(jediLogo);
+            knightLabel.setText("Jedi:");
             darkSide = false;
         }else{
             btn1.setStyle("-fx-background-color: red");
             btn2.setStyle("-fx-background-color: red");
             scarcePane.setStyle("-fx-background-color: red");
             weaponPane.setStyle("-fx-background-color: red");
-            logo.setImage(empireLogo);
             background.setImage(empireBackground);
+            logo.setImage(empireLogo);
+            knightLabel.setText("Sith:");
             darkSide = true;
         }
     }

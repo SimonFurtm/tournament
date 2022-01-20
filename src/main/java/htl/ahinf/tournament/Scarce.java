@@ -11,11 +11,10 @@ public class Scarce extends Person{
 
     @Override
     public String toString() {
-        return "Scarce:\n" +
+        return "Lehrling:\n" +
                 "\t\tname = " +  super.getName()+ '\n' +
                 "\t\tphoneNr = " +  super.getPhoneNr()+ '\n' +
-                "\t\ttraining = " + training +
-                ';';
+                "\t\ttraining = " + training;
     }
 
     public int getTraining() {

@@ -8,12 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Tournament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/TournamentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/TournamentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Scarce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/ahinf/tournament/Scarce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/jedi-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/htl/ahinf/tournament/jedi-background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/TournamentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/TournamentApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/htl/ahinf/tournament/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tournament.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tournament.iml" afterDir="false" />
     </list>

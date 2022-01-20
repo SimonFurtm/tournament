@@ -4,7 +4,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.ahinf.tournament.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.ahinf.tournament.Controller">
    <children>
       <ImageView fx:id="background" fitHeight="456.0" fitWidth="712.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -12,17 +12,17 @@
          </image>
       </ImageView>
       <Label layoutX="124.0" layoutY="14.0" prefHeight="17.0" prefWidth="40.0" text="Knight" />
-      <TextField fx:id="knightName" layoutX="70.0" layoutY="32.0" promptText="knights name" />
-      <Label layoutX="19.0" layoutY="36.0" text="Name:" textFill="WHITE" />
+      <TextField fx:id="knightName" layoutX="70.0" layoutY="32.0" promptText="Name" />
+      <Label fx:id="knightLabel" alignment="CENTER" layoutX="15.0" layoutY="36.0" prefHeight="17.0" prefWidth="40.0" text="Sith:" textFill="WHITE" />
       <Button layoutX="14.0" layoutY="127.0" mnemonicParsing="false" onAction="#addKnight" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: lightgreen;" text="Add Knight" />
       <Label layoutX="18.0" layoutY="66.0" text="Phone:" textFill="WHITE" />
-      <Label layoutX="9.0" layoutY="96.0" text="Nickname:" textFill="WHITE" />
-      <CheckBox fx:id="scarceCheckBox" layoutX="20.0" layoutY="278.0" mnemonicParsing="false" onAction="#addScarce" text="Add Scarce" textFill="WHITE" />
-      <TextField fx:id="nickName" layoutX="70.0" layoutY="92.0" promptText="the great" />
+      <Label alignment="CENTER" layoutX="9.0" layoutY="96.0" prefHeight="17.0" prefWidth="52.0" text="Rank:" textFill="WHITE" />
+      <CheckBox fx:id="scarceCheckBox" layoutX="20.0" layoutY="278.0" mnemonicParsing="false" onAction="#addScarce" text="Lehrling" textFill="WHITE" />
+      <TextField fx:id="nickName" layoutX="70.0" layoutY="92.0" promptText="Meister" />
       <Pane fx:id="scarcePane" layoutY="299.0" prefHeight="101.0" prefWidth="237.0" style="-fx-background-color: red;">
          <children>
             <Label layoutX="17.0" layoutY="11.0" prefHeight="17.0" prefWidth="40.0" text="Name:" />
-            <TextField fx:id="scarceName" layoutX="70.0" layoutY="7.0" promptText="scarce name" />
+            <TextField fx:id="scarceName" layoutX="70.0" layoutY="7.0" promptText="Name" />
             <Label layoutX="18.0" layoutY="42.0" text="Phone:" />
             <TextField fx:id="scarcePhoneNr" layoutX="70.0" layoutY="38.0" promptText="+43 650 1234567" />
             <Label layoutX="7.0" layoutY="74.0" text="Experience:" />
@@ -32,17 +32,17 @@
       <Pane fx:id="weaponPane" layoutY="180.0" prefHeight="95.0" prefWidth="237.0" style="-fx-background-color: red;">
          <children>
             <Label layoutX="2.0" layoutY="10.0" text="Description:" />
-            <TextField fx:id="weaponDescription" layoutX="70.0" layoutY="6.0" promptText="Longsword" />
+            <TextField fx:id="weaponDescription" layoutX="70.0" layoutY="6.0" promptText="Lichtschwert" />
             <Label layoutX="20.0" layoutY="40.0" text="Type:" />
             <TextField fx:id="weaponType" layoutX="70.0" layoutY="36.0" promptText="s" />
-            <Label layoutX="10.0" layoutY="69.0" text="Property:" />
-            <TextField fx:id="weaponProperty" layoutX="70.0" layoutY="65.0" promptText="something special" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="69.0" prefHeight="17.0" prefWidth="56.0" text="Color:" />
+            <TextField fx:id="weaponProperty" layoutX="70.0" layoutY="65.0" promptText="Rot" />
          </children>
       </Pane>
-      <CheckBox fx:id="weaponCheckBox" layoutX="20.0" layoutY="160.0" mnemonicParsing="false" onAction="#addWeapon" text="Add Weapon" textFill="WHITE" />
+      <CheckBox fx:id="weaponCheckBox" layoutX="20.0" layoutY="160.0" mnemonicParsing="false" onAction="#addWeapon" text="Waffe" textFill="WHITE" />
       <Pane layoutX="433.0" prefHeight="400.0" prefWidth="280.0">
          <children>
-            <Label layoutX="93.0" layoutY="12.0" text="Participants:" textFill="WHITE" />
+            <Label layoutX="93.0" layoutY="12.0" text="Teilnehmer" textFill="WHITE" />
             <Button fx:id="btn2" layoutX="153.0" layoutY="362.0" mnemonicParsing="false" onAction="#updateParticipants" prefWidth="120.0" style="-fx-background-color: red;" text="Update Participants" />
             <TextArea fx:id="textArea" layoutX="10.0" layoutY="31.0" prefHeight="323.0" prefWidth="263.0" />
             <Button fx:id="btn1" layoutX="10.0" layoutY="362.0" mnemonicParsing="false" onAction="#switchSide" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: red;" text="Switch Side" textAlignment="CENTER" />
@@ -55,6 +55,6 @@
             <Image url="@empire-logo.png" />
          </image>
       </ImageView>
-      <Label fx:id="errorMassage" alignment="CENTER" contentDisplay="CENTER" layoutX="249.0" layoutY="369.0" prefHeight="17.0" prefWidth="184.0" text="Welcome User" textAlignment="CENTER" textFill="WHITE" />
+      <Label fx:id="errorMassage" alignment="CENTER" contentDisplay="CENTER" layoutX="249.0" layoutY="369.0" prefHeight="17.0" prefWidth="184.0" text="Wilkommen" textAlignment="CENTER" textFill="WHITE" />
    </children>
 </Pane>

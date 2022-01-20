@@ -27,8 +27,8 @@ public class Knight extends Person{
         return "knight:\n" +
                 "\t\tname = " +  super.getName()+ '\n' +
                 "\t\tphoneNR = " +  super.getPhoneNr()+ '\n' +
-                "\t\tnickname = " + nickname +
-                ';' + scarceInfo + weaponInfo + "\n";
+                "\t\trank = " + nickname +
+                scarceInfo + weaponInfo + "\n";
     }
 
     public void addScarce(String name, String phoneNr, int extraTraining){
